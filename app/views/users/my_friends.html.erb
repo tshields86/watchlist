@@ -19,7 +19,7 @@
         <td><%= friend.email %></td>
         <td>
           <%= link_to "View Profile", user_path(friend), class:"btn btn-primary btn-xs" %>
-          <%= link_to 'Remove Friend', friendship(friend),
+          <%= link_to 'Remove Friend', friendship_path(friend),
               :method => :delete,
               :data => { :confirm => "Are you sure?" },
               :class => "btn btn-xs btn-danger" %>
