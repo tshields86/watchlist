@@ -27,3 +27,19 @@
     background-color: darken(#d9534f, 20%) !important;
   }
 }
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  background-color: inherit;
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
