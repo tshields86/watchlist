@@ -15,31 +15,49 @@
 }
 
 .user-name {
-  padding-top: 15px;
+  padding-top: 11px;
 }
 
 .nav.navbar-right li {
   .btn {
-    color: #fff !important;
-    margin-top: 5%;
+    // color: #fff !important;
+    // margin-top: 5%;
   }
   .btn-danger:hover {
     background-color: darken(#d9534f, 20%) !important;
   }
 }
+.jumbotron {
+  background-image: asset-url('business.jpeg');
+  // background-image: asset-url('gold-coins.jpeg');
+  // background-image: asset-url('coins.jpeg');
+  background-size: cover;
+  height: 75vh;
+}
+
+.jumbotron h1 {
+  color: #d9534f;
+  // text-align: center;
+  margin-bottom: 15px;
+  // letter-spacing: -1px;
+  font-weight: bold;
+}
 
 footer {
-  margin-top: 45px;
+  margin-top: 5vh;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  // color: #777;
 }
 
 footer a:hover {
   background-color: inherit;
-  color: #222;
+  color: darken(#d9534f, 20%)
 }
 
 footer small {
   float: left;
+}
+footer small a {
+  color: #d9534f
 }

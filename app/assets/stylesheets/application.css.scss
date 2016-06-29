@@ -1,0 +1,15 @@
+
+//Import bootstrap-sprockets
+@import "bootstrap-sprockets";
+@import "font-awesome-sprockets";
+// Import cerulean variables
+@import "bootswatch/superhero/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+@import "font-awesome";
+// And finally bootswatch style itself
+@import "bootswatch/superhero/bootswatch";
+
+// Whatever application styles you have go last
+@import "custom";
