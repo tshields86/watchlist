@@ -1,19 +1,14 @@
 == The Watchlist
 
-Personal Finance Portfolio Tracker
+Personal Finance Portfolio Tracking Application
+
+Developed using Ruby on Rails, devise, twitter-bootstrap, and stock_quote, which fetches data from the Yahoo finance API. Users can search for stocks to build their portfolio while adding friends; these relationships persist through a PostgreSQL database.
 
 Things that this app incorporates:
-
-* Authentication system, users can sign-up, edit their profile, log in/logout
-
-* Users can track stocks, up to 10 per user. The profile page will display all the current stock prices.
-
+* Authentication system, users can sign-up, edit their profile, log in/logout.
+* Users can track stocks, up to 25 per user. The profile page will display all the current stock prices.
 * Users can search for stock symbols using a search bar.
-
 * Users can choose to add a stock from results of search to their portfolio.
-
 * Users can look for friends, or other users of the app, by name (first or last or email).
-
 * Users can view portfolio of stocks their friends are tracking for investing ideas.
-
 * Mobile friendly and responsive styling.
