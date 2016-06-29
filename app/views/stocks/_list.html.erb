@@ -4,7 +4,7 @@
       <th>Name</th>
       <th>Symbol</th>
       <th>Current Price</th>
-      <th>Change</th>
+      <th>Daily Change</th>
       <% if @user.id == current_user.id %>
       <th>Actions</th>
       <% end %>
@@ -15,7 +15,7 @@
     <tr>
       <td><%= user_stock.name %></td>
       <td><%= user_stock.ticker %></td>
-      <td><%= user_stock.price %></td>
+      <td><%= number_to_currency(user_stock.price) %></td>
       <td><%= user_stock.change %></td>
       <% if @user.id == current_user.id %>
       <td>
